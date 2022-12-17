@@ -1,0 +1,123 @@
+body {
+    color: white;
+    background-color: black;
+    
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(assets/font/Alegreya-Medium.ttf);
+}
+
+body {
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
+}
+
+.nav-text a {
+    font-size: 1rem;
+}
+
+body {
+    height: 100vh;
+    
+}
+
+section {
+    margin: 15% 0 10% 0;
+}
+
+::-webkit-scrollbar {
+    width: 08px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #555; 
+} 
+
+.social-icon {
+    writing-mode: vertical-lr;
+}
+ 
+.social-icon a{
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.border-bottom, .border-top{
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #ffffff82!important;
+}
+
+img.product-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.darken {
+    filter: brightness(75%)!important;
+}
+
+.carousel-indicators {
+    bottom: -15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    margin: 0 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+    #productCarousel {
+        margin-bottom: 25%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .card:hover div.desc {
+        position: absolute;
+        display: block!important;
+        top: 2rem;
+        right: 0;
+        z-index: 1;
+    }
+    
+    .card:hover .desc-hide  {
+        display: block!important;
+    }
+    
+    .card:hover .icon-link {
+        display: inline-block!important;
+    }
+
+    .carousel-indicators {
+        bottom: -20%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card:hover div.desc {
+        position: absolute;
+        display: block!important;
+        top: 2rem;
+        right: 0;
+        z-index: 1;
+    }
+    .carousel-indicators {
+        bottom: -20%;
+    }
+}

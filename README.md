@@ -14,4 +14,4 @@ Rebuilding biadedigital portfolio in react
 
 ## Code
 - [Code-on-Replit](https://replit.com/@Biademade/BD-Portfolio?v=1)
-- [Code-on-Github](https://github.com/Biadedigital/CounterJS)
+- [Code-on-Github](https://github.com/Biadedigital/BD-Portfolio)

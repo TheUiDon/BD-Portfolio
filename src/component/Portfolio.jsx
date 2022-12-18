@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+
 import data from "./data";
 import Card from './Card';
 // {cardElement}
@@ -14,12 +15,11 @@ export default function Portfolio() {
           type={cardEl.type}
           url={cardEl.url}
         />
-      
     )
   )
   return (
   
-    <section id="products">
+    <section id="portfolio">
       <div className="container">
         <div className="row">
           <div className="title">
@@ -34,8 +34,8 @@ export default function Portfolio() {
                 <img src="./icon/Arrow right.svg" className="img-fluid" title="Carousel Control right" alt="" type="button" data-bs-target="#productCarousel" data-bs-slide="next" />
               </span>
             </div>
-                <div className="row row-cols-2 row-cols-md-2 g-4 g-md-3 mt-5 aos-init aos-animate" data-aos="fade-right">               
-            {cardElement}
+                <div className="row row-cols-2 row-cols-md-2 g-4 g-md-3 mt-5 aos-init aos-animate" data-aos="fade-right">
+                  {cardElement}  
                 </div>
           </div>
         </div>

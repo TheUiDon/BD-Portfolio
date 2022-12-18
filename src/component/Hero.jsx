@@ -10,16 +10,16 @@ export default function Hero() {
           <div className="d-flex row align-items-center justify-content-between  ">
             <div className="col-12 col-md-6 order-3 order-md-1 mt-2 mt-md-0  ">
               <h1 className="h3" title="Biade Digital Hero Text">
-                We Are Working On This<br />
+                We Build User Friendly<br />
                 Website To Deliver A Better<br />
                 User Interface &amp; User Experience ;)
               </h1>
               <div className="mt-2 mt-sm-3 " title="Biade Digital Hero Button">
-                <a href="./download/" className="btn btn-light me-0 me-md-2 " type="button" title="Download Resume" download>
-                  Download Resume
+                <a href="#portfolio" className="btn btn-light me-2 " type="button" title="yes you can View our Project's by clicking here">
+                 View Project's
                 </a>
-                <a href="mailto:contact@biadedigital.com" className="btn btn-secondary " type="button" title="Send Mail">
-                  Contact Me
+                <a href="mailto:contact@biadedigital.com" className="btn btn-secondary " type="button" title="That's what I love to read Send me the Love Letter">
+                  Send Email
                 </a>
               </div>
             </div>

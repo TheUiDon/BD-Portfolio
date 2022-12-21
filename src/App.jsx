@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'animate.css/animate.min.css';
 
-import 'font-awesome/css/font-awesome.min.css';
+
 import './App.css';
 
 export default function App() {

@@ -1,6 +1,6 @@
 ## Portfolio
 
-Rebuilding biadedigital portfolio in react
+Rebuilding Biadedigital portfolio in react
 
 ## Tools
 - [React](https://reactjs.org/)
